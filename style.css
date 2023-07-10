@@ -211,9 +211,6 @@ background: #FFF;
     height: 430px;
 }
 
-.foother-content{
-    margin-top: 40px;
-}
 
 .foother-title {
     display: flex;
@@ -221,12 +218,10 @@ background: #FFF;
     align-items: center;
     color: white;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 100px;
+
 }
 
- h2{
-    margin-top: 100px;
-}
 
 .foother-description{
 color: rgba(240, 233, 233, 0.9);
@@ -236,6 +231,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: 30px;
+margin-top: 10px;
 }
 
 .flower-span {
@@ -245,7 +241,9 @@ font-size: 40px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+margin-top: 120px;
 }
+
 .copy{
  color: rgb(230, 221, 221);
 text-align: center;
@@ -254,4 +252,38 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 15px;
+}
+
+.bonus-section{
+    margin-top: 50px;
+}
+
+.bonus-container{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.bonus-point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.bonus-title{
+  
+}
+.bonus-description{
+  
+
+}
+
+.bonus-point{
+   
+}
+
+.bonus-box{
+
 }
