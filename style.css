@@ -16,18 +16,18 @@
     margin-bottom: 60px;
 }
 
-.btn{
-color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
-border-radius: 10px;
-background: #E55473;
-padding: 12px 15px;
-border-style: none;
-margin-top: 20px;
+.btn {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 10px;
+    background: #E55473;
+    padding: 12px 15px;
+    border-style: none;
+    margin-top: 20px;
 }
 
 .section-title h1 {
@@ -59,7 +59,7 @@ margin-top: 20px;
 
 }
 
-.box-model-two{
+.box-model-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,64 +70,66 @@ margin-top: 20px;
 
 }
 
-.box-title{
+.box-title {
     margin-left: 125px;
 }
 
 
-.box-title h2{
-color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.box-title h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.box-title p{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 22px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px;
+
+.box-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
 
 }
 
-.flower-box{
+.flower-box {
     margin: 50px 200px 90px;
 }
+
 .box-title .btn-size {
     margin-left: 45%;
 }
 
-.Instagram{
+.Instagram {
     margin-top: 50px;
 }
 
 
-.Instagram-title{
-        color: #181818;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 700;
+.Instagram-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
 
-.Instagram-description{
-text-align: center;
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-padding: 20px;
+.Instagram-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
 
 
 }
 
-.instagram-container{
+.instagram-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -136,13 +138,120 @@ padding: 20px;
 
 }
 
-.instagram-box{
+.instagram-box {
     margin-left: 20px;
 }
 
 .deals-section{
     background-image: url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 466px;
+    margin: 0px 36px 80px 36px;
+}
+
+.deails-title{
+    margin-top: -90px;
+}
+
+.deails-title .input-fill{
+    margin-top: 30px;
+}
+
+.deails-title h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.deails-title p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.deails-title .Subscribe{
+color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 8px;
+background: #E55473;
+padding: 12px 12px;
+}
+.input-fill{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 10px 260px;
+    border-radius: 8px;
+background: #FFF;
+}
+
+.foother-section{
+    background-color: #111010;
+    height: 430px;
+}
+
+.foother-content{
+    margin-top: 40px;
+}
+
+.foother-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+ h2{
+    margin-top: 100px;
+}
+
+.foother-description{
+color: rgba(240, 233, 233, 0.9);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 30px;
+}
+
+.flower-span {
+color: #E55473;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.copy{
+ color: rgb(230, 221, 221);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
