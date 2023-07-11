@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-.section-box-one {
+/* flower-section */
+.flower-section {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: center;
@@ -14,20 +15,6 @@
     margin-left: 170px;
     margin-top: 60px;
     margin-bottom: 60px;
-}
-
-.btn {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    border-radius: 10px;
-    background: #E55473;
-    padding: 12px 15px;
-    border-style: none;
-    margin-top: 20px;
 }
 
 .section-title h1 {
@@ -46,6 +33,21 @@
     font-style: normal;
     font-weight: 500px;
     line-height: 25px;
+    padding-top: 30px;
+}
+
+.btn {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 10px;
+    background: #E55473;
+    padding: 12px 15px;
+    border-style: none;
+    margin-top: 20px;
 }
 
 .image-section {
@@ -59,210 +61,7 @@
 
 }
 
-.box-model-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    margin-top: 70px;
-
-
-}
-
-.box-title {
-    margin-left: 125px;
-}
-
-
-.box-title h2 {
-    color: #272727;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.box-title p {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50px;
-
-}
-
-.flower-box {
-    margin: 50px 200px 90px;
-}
-
-.box-title .btn-size {
-    margin-left: 45%;
-}
-
-.Instagram {
-    margin-top: 50px;
-}
-
-
-.Instagram-title {
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-}
-
-.Instagram-description {
-    text-align: center;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    padding: 20px;
-
-
-}
-
-.instagram-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -24px;
-    margin-bottom: 50px;
-
-}
-
-.instagram-box {
-    margin-left: 20px;
-}
-
-.deals-section {
-    background-image: url(images/Rectangle\ 9.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 466px;
-    margin: 0px 36px 80px 36px;
-}
-
-.deails-title {
-    margin-top: -90px;
-}
-
-.deails-title .input-fill {
-    margin-top: 30px;
-}
-
-.input-fill {
-    border: none;
-}
-
-.deails-title h2 {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.deails-title p {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.deails-title .Subscribe {
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 8px;
-    background: #E55473;
-    padding: 12px 12px;
-}
-
-.input-fill {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    padding: 10px 260px;
-    border-radius: 8px;
-    background: #FFF;
-}
-
-.foother-section {}
-
-
-.foother-content {
-    margin-top: 20px;
-    background-color: #111010;
-    height: 430px;
-    padding: 50px 0px;
-}
-
-.foother-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 40px;
-    margin-top: 100px;
-
-}
-
-
-.foother-description {
-    color: rgba(240, 233, 233, 0.9);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 30px;
-    margin-top: 10px;
-}
-
-.flower-span {
-    color: #E55473;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.copy {
-    color: rgb(230, 221, 221);
-    text-align: center;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 15px;
-}
-
+/* bonus-section */
 .bonus-section {
     margin-top: 50px;
 
@@ -333,7 +132,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-decoration-line: underline; */
+  
 }
 
 .flower-name h2 {
@@ -357,3 +156,216 @@
     top: -114px;
     left: 29px;
 }
+
+/* hot-deal-section */
+.hot-deal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 70px;
+
+
+}
+
+.box-title {
+    margin-left: 125px;
+}
+
+
+.box-title h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.box-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.flower-box {
+    margin: 50px 200px 90px;
+}
+
+
+.box-title .btn-size {
+    margin-left: 45%;
+}
+/* Instagram-section  */
+
+.Instagram-section{
+    margin-top: 50px;
+}
+
+
+.Instagram-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Instagram-description {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px;
+
+
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -24px;
+    margin-bottom: 50px;
+
+}
+
+.instagram-box {
+    margin-left: 20px;
+}
+
+/* deals-section  */
+.deals-section {
+    background-image: url(images/Rectangle\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 466px;
+    margin: 0px 36px 80px 36px;
+}
+
+.deails-title {
+    margin-top: -90px;
+}
+
+.deails-title .input-fill {
+    margin-top: 30px;
+}
+
+.input-fill {
+    border: none;
+}
+
+.deails-title h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deails-title p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deails-title .Subscribe {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 12px 12px;
+    border: none;
+}
+
+.Subscribe{
+    margin-left: 7px;
+}
+
+.input-fill {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 15px 260px;
+    border-radius: 8px;
+    background: #FFF;
+   
+}
+
+.footer-content {
+    margin-top: 20px;
+    background-color: #111010;
+    height: 430px;
+    padding: 80px 0px;
+}
+
+/* footer-section */
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+
+}
+
+
+.footer-description {
+    color: rgba(240, 233, 233, 0.9);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.flower-span {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.copy {
+    color: rgb(230, 221, 221);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
