@@ -142,7 +142,7 @@
     margin-left: 20px;
 }
 
-.deals-section{
+.deals-section {
     background-image: url(images/Rectangle\ 9.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,46 +154,51 @@
     margin: 0px 36px 80px 36px;
 }
 
-.deails-title{
+.deails-title {
     margin-top: -90px;
 }
 
-.deails-title .input-fill{
+.deails-title .input-fill {
     margin-top: 30px;
 }
 
-.deails-title h2{
+.input-fill {
+    border: none;
+}
+
+.deails-title h2 {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.deails-title p{
+.deails-title p {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.deails-title .Subscribe{
-color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border-radius: 8px;
-background: #E55473;
-padding: 12px 12px;
+.deails-title .Subscribe {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 12px 12px;
 }
-.input-fill{
+
+.input-fill {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -203,14 +208,18 @@ padding: 12px 12px;
     line-height: 21px;
     padding: 10px 260px;
     border-radius: 8px;
-background: #FFF;
+    background: #FFF;
 }
 
-.foother-section{
+.foother-section {}
+
+
+.foother-content {
+    margin-top: 20px;
     background-color: #111010;
     height: 430px;
+    padding: 50px 0px;
 }
-
 
 .foother-title {
     display: flex;
@@ -223,67 +232,128 @@ background: #FFF;
 }
 
 
-.foother-description{
-color: rgba(240, 233, 233, 0.9);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 30px;
-margin-top: 10px;
+.foother-description {
+    color: rgba(240, 233, 233, 0.9);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 10px;
 }
 
 .flower-span {
-color: #E55473;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-top: 120px;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.copy{
- color: rgb(230, 221, 221);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-top: 15px;
-}
-
-.bonus-section{
-    margin-top: 50px;
-}
-
-.bonus-container{
-    color: #181818;
+.copy {
+    color: rgb(230, 221, 221);
     text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
 }
 
-.bonus-point{
+.bonus-section {
+    margin-top: 50px;
+
+
+}
+
+.bonus-container {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+
+.bonus-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.bonus-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 430;
+    line-height: 50px;
+
+}
+
+.image-boxx {
     display: flex;
-    align-items: center;
     justify-content: center;
-}  
-
-.bonus-title{
-  
-}
-.bonus-description{
-  
+    align-items: center;
 
 }
 
-.bonus-point{
-   
+.box-model1 {
+    margin: 140px 90px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
 }
 
-.bonus-box{
+.bg {
+    width: 364px;
+    height: 438px;
 
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration-line: underline; */
+}
+
+.flower-name h2 {
+    margin: 0px 150px 0px;
+}
+
+.flower-iner1 {
+    position: relative;
+    top: -114px;
+    right: 29px;
+}
+
+.flower-iner2 {
+    position: relative;
+    top: -114px;
+    right: 29px;
+}
+
+.flower-iner3 {
+    position: relative;
+    top: -114px;
+    left: 29px;
 }
