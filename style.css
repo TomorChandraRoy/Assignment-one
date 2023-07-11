@@ -100,7 +100,7 @@
 
 }
 
-.image-boxx {
+.flower-banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@
 
 }
 
-.bg {
+.flower-images {
     width: 364px;
     height: 438px;
 
@@ -165,7 +165,7 @@
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-top: -45px;
+    margin-top: -47px;
 
 
 }
@@ -253,6 +253,57 @@
 .Instagram-image{
         width: 306px;
         height: 396px;
+}
+
+.rose-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rose-section{
+    background-color: beige;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rose-title {
+    margin-left: 40px;
+}
+
+.rose-title h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 27px;
+}
+
+.rose-title p{
+    color: rgba(13, 14, 13, 0.6);
+    font-family: lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.rose-button{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 10px;
+    background: #0ec25f;
+    padding: 12px 15px;
+    border-style: none;
+    margin-top: 20px; 
 }
 
 /* deals-section  */
