@@ -115,7 +115,7 @@
 }
 
 .bg {
-    width: 306px;
+    width: 364px;
     height: 438px;
 
 }
@@ -137,12 +137,13 @@
 
 .flower-name h2 {
     margin: 0px 150px 0px;
+    font-size: 20px;
 }
 
 .flower-iner1 {
     position: relative;
     top: -114px;
-    right: 29px;
+    right: 16px;
 }
 
 .flower-iner2 {
@@ -164,23 +165,29 @@
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin-top: 70px;
+    margin-top: -45px;
 
 
 }
 
 .box-title {
     margin-left: 125px;
+    
 }
 
+.box-title span{
+    color: #E55473;
+
+}
 
 .box-title h2 {
     color: #272727;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 27px;
 }
 
 .box-title p {
@@ -190,7 +197,7 @@
     font-size: 22px;
     font-style: normal;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 32px;
 
 }
 
@@ -200,7 +207,7 @@
 
 
 .box-title .btn-size {
-    margin-left: 45%;
+    margin-left: 36%;
 }
 /* Instagram-section  */
 
