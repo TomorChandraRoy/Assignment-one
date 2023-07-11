@@ -116,8 +116,20 @@
 .box-model1 {
     margin: 140px 48px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background: rgba(173, 35, 102, 0.15);
 
+}
+
+.box-model2 {
+    margin: 140px 48px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.box-model3 {
+    margin: 140px 48px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
 }
 
 .flower-images {
@@ -155,7 +167,7 @@
 .flower-iner2 {
     position: relative;
     top: -114px;
-    right: 29px;
+    right: 19px;
 }
 
 .flower-iner3 {
@@ -328,6 +340,7 @@
     align-items: center;
     height: 466px;
     margin: 0px 36px 80px 36px;
+
 }
 
 .deails-title {
