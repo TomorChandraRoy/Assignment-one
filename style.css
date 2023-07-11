@@ -75,7 +75,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 34px;
 
 }
 
@@ -98,6 +98,11 @@
     font-weight: 430;
     line-height: 50px;
 
+}
+
+.bonus-container p {
+    margin-top: 12px;
+    font-family: Lato;
 }
 
 .flower-banner {
@@ -132,7 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 .flower-name h2 {
@@ -159,7 +164,7 @@
 }
 
 /* hot-deal-section */
-.hot-deal-section{
+.hot-deal-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,10 +177,10 @@
 
 .box-title {
     margin-left: 125px;
-    
+
 }
 
-.box-title span{
+.box-title span {
     color: #E55473;
 
 }
@@ -209,9 +214,10 @@
 .box-title .btn-size {
     margin-left: 36%;
 }
+
 /* Instagram-section  */
 
-.Instagram-section{
+.Instagram-section {
     margin-top: 50px;
 }
 
@@ -250,30 +256,33 @@
     margin-left: 20px;
 }
 
-.Instagram-image{
-        width: 306px;
-        height: 396px;
+.Instagram-image {
+    width: 306px;
+    height: 396px;
 }
 
 /* rose-section */
-.rose-container{
+.rose-container {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.rose-section{
+
+.rose-section {
     background-color: beige;
     margin-bottom: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 490px;
 }
+
 .rose-title {
     margin-left: 40px;
 }
 
-.rose-title h1{
+.rose-title h1 {
     color: #272727;
     font-family: Lato;
     font-size: 38px;
@@ -283,7 +292,7 @@
     margin-bottom: 27px;
 }
 
-.rose-title p{
+.rose-title p {
     color: rgba(13, 14, 13, 0.6);
     font-family: lato;
     font-size: 18px;
@@ -293,7 +302,7 @@
     padding-top: 10px;
 }
 
-.rose-button{
+.rose-button {
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
@@ -304,7 +313,7 @@
     background: #0ec25f;
     padding: 12px 15px;
     border-style: none;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 /* deals-section  */
@@ -365,7 +374,7 @@
     border: none;
 }
 
-.Subscribe{
+.Subscribe {
     margin-left: 7px;
 }
 
@@ -380,7 +389,7 @@
     padding: 15px 260px;
     border-radius: 8px;
     background: #FFF;
-   
+
 }
 
 /* footer-section */
@@ -431,4 +440,3 @@
     line-height: normal;
     margin-top: 15px;
 }
-
